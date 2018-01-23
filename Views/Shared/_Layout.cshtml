@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8" />
+    <title>Your Complain</title>
+
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="main-bar">
+        <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        <a asp-area="" asp-controller="Complaint" asp-action="Index">Complaints</a>
+    </div>
+    <div id="container">
+        @RenderBody()
+    </div>
+    <footer>
+        <p>2018 - Your Complains</p>
+    </footer>
+</body>
+</html>
